@@ -1,8 +1,9 @@
 import React from "react";
 import SliderJson from "./SliderJson";
-import "./Home.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
+import "./slider.css";
+
 const SlideCard = () => {
   //slider settings
   const settings = {
@@ -25,8 +26,7 @@ const SlideCard = () => {
           return (
 
             <div className="box" key={index}>
-                <h1>Slider</h1>
-              <img src={value.cover} alt="" className="img-home" />
+              <img src={value.cover} alt="slider" className="img-home" />
             </div>
 
           );
