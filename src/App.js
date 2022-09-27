@@ -1,10 +1,11 @@
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src='./Logo.png'  alt='logo' className='logoI'/>
+        <img src='./img/Logo.png'   className='logoI'/>
      <li className='navbar'>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
@@ -16,6 +17,8 @@ function App() {
 
       <main>
 
+        <img src="./Img/Logo-Reallab.png" className=''></img>
+        <h2>Blockchain technology is used to give veracity and value to your proposal.</h2>
       </main>
 
       <footer>
