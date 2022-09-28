@@ -1,6 +1,6 @@
 import './App.css';
 import SlideCard from './components/Slider';
-import { FaFacebook, FaInstagram, FaLinkedin, FaLinkedinIn, FaTelegram, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaLinkedinIn, FaMailBulk, FaMailchimp, FaTelegram, FaTwitter } from 'react-icons/fa';
 import NavL from './components/NavL/NavL';
 function App() {
 
@@ -51,9 +51,17 @@ function App() {
         <a className='button-p' href='https://opensea.io/collection/tortuga-v2-1l' >OpenSea</a>
          </div>
         </div>
+           <h1 className='collabs-titulo'>Contact</h1>
          <div className='form'>
-          <form>
-
+          <form onSubmit>
+            <div className='business'>
+                <input type='text' name="name" placeholder='Your Name*' about='name' className='input-form' required />
+                <input type='email' name="email" placeholder='Your Email*' about='email' className='input-form' required/>
+                </div>
+                <input type='text' name="subject" placeholder='Business Name*' about='subject' className='input-form' required/>
+                
+                <input type='text' name="subject" placeholder='Message*' about='subject' className='input-form' required/>
+                <button type='submit' className='button-form'>SEND</button>
           </form>
          </div>
 
@@ -70,9 +78,7 @@ function App() {
          <a href='https://www.linkedin.com/company/reallab-project/'>
           <FaLinkedin />
          </a>
-         <a href=''>
-          <FaFacebook />
-         </a>
+        
          <a href='https://t.me/+oo2ra2NcP6ZhYTMx'>
           <FaTelegram />
          </a>

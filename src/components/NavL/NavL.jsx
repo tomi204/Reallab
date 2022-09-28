@@ -1,6 +1,6 @@
 import React from 'react'
 import "./NavL.css"
-import { FaTwitter, FaLinkedin, FaInstagram, FaTelegram } from 'react-icons/fa'
+import { FaTwitter, FaInstagram, FaTelegram, FaLinkedinIn } from 'react-icons/fa'
 
 
 const NavL = () => {
@@ -9,7 +9,7 @@ const NavL = () => {
         <li className='navl-li'>
           <a href=""><FaTwitter /></a>
           <a href=""><FaInstagram /></a>
-          <a href=""><FaLinkedin /></a>
+          <a href=""><FaLinkedinIn /></a>
           <a href=""><FaTelegram /></a>
         </li>
     </div>
