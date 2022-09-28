@@ -1,6 +1,7 @@
 import './App.css';
 import SlideCard from './components/Slider';
 import { FaFacebook, FaInstagram, FaLinkedin, FaLinkedinIn, FaTelegram, FaTwitter } from 'react-icons/fa';
+import NavL from './components/NavL/NavL';
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
       <a href="collabs">Projects</a>
       <a href="contact.html">FAQ'S</a>
 </li>
+     <NavL />
       </header>
 
       <main>
