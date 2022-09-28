@@ -204,19 +204,22 @@ footer{
 
 /* Form 2*/
 .input-form{
-border-radius: 15px;
+border-radius: 25px;
 color: black;
-width: 50%;
+margin-inline: 20px;
+width: 40%;
 text-align: start;
 height: 36px;
 border-style: solid;
 border-color: black;
 color: black;
+border-width: 10px;
+margin-top: 10px;
+
 font-weight: 750;
 }
 .form{
-  display: inline;
-  width: 100%;
+  display: list-item;
   justify-content: center;
   align-items: center;
 }
@@ -236,4 +239,43 @@ form{
 .business{
   width: 100%;
   display: flex;
+  justify-content: center;
+  
 }
+.input-msg{
+  border-radius: 25px;
+  color: black;
+  width: 70%;
+   margin-top: 10px;
+  height: 46px;
+ border-width: 10px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  font-weight: 750;
+}
+.form-main{
+  display: list-item;
+}
+::placeholder{
+  color: black;
+  font-weight: 800;
+  margin-top: 50px;
+ 
+
+}
+.radio-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.radio-contact label{
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  background-color: aqua;
+}
+  

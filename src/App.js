@@ -53,14 +53,22 @@ function App() {
         </div>
            <h1 className='collabs-titulo'>Contact</h1>
          <div className='form'>
-          <form onSubmit>
+          <form onSubmit className='form-main'>
+          <input type="checkbox" id="brand web3" name="brand web3" value="brand web3"className='radio-contact'/>
+  <label >Your brand web3</label><br/>
+  <input type="checkbox" id="nft" name="nft" value="nft"className='radio-contact'/>
+  <label >Blockchain Development</label><br/>
+  <input type="checkbox" id="blockchain dev" name="blockchain dev" value="blockchain dev" className='radio-contact'/>
+  <label > NFT</label>
+  <input type="checkbox" className='radio-contact' name='other' value="other"/>
+  <label for="vehicle1">Other</label>
             <div className='business'>
                 <input type='text' name="name" placeholder='Your Name*' about='name' className='input-form' required />
                 <input type='email' name="email" placeholder='Your Email*' about='email' className='input-form' required/>
                 </div>
                 <input type='text' name="subject" placeholder='Business Name*' about='subject' className='input-form' required/>
                 
-                <input type='text' name="subject" placeholder='Message*' about='subject' className='input-form' required/>
+                <input type='text' name="subject" placeholder='Message' about='subject' className='input-msg' />
                 <button type='submit' className='button-form'>SEND</button>
           </form>
          </div>
