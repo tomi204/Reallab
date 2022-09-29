@@ -14,21 +14,16 @@ const SlideCard = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-
-
   };
   //slider component
   return (
     <>
-
       <Slider {...settings}>
         {SliderJson.map((value, index) => {
           return (
-
             <div className="box" key={index}>
               <img src={value.cover} alt="slider" className="img-home" />
             </div>
-
           );
         })}
       </Slider>

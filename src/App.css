@@ -1,9 +1,8 @@
-*{
+* {
   list-style-type: none;
   text-decoration: none;
-  
 }
-.logoI{
+.logoI {
   width: 120px;
   height: 100px;
   color: azure;
@@ -22,7 +21,7 @@
 /*
 =================================Navbar==================
 */
-.navbar{
+.navbar {
   background-color: transparent;
   height: 10%;
   width: 100%;
@@ -34,10 +33,10 @@
   margin: 10px;
   display: flex;
   justify-content: space-around;
-  
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   text-align: center;
 }
-.navbar a{
+.navbar a {
   margin: 19px;
   color: white;
 }
@@ -45,20 +44,20 @@ header {
   height: 16%;
   width: 100%;
   display: flex;
- background-color: black;
+  background-color: black;
+
   position: fixed;
   color: white;
-  z-index: 1;
+  z-index: 2;
 }
 /*
 =================================Main==================
 */
-main{
+main {
   justify-content: center;
   align-items: center;
 }
-.h2-img{
- 
+.h2-img {
   font-weight: bold;
   margin-bottom: 50px;
   border-radius: 15px;
@@ -66,21 +65,21 @@ main{
   color: white;
 }
 
-.img-principal{
-width: 60%;
+.img-principal {
+  width: 60%;
 }
 /*
 =================================Collabs==================
 */
-.collabs{
- width: 100%;
- display: flex;
+.collabs {
+  width: 100%;
+  display: flex;
 
-justify-content: center;
-align-items: center;
-background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
 }
-.container-p{
+.container-p {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,26 +93,26 @@ background-color: rgb(0, 0, 0);
   border-radius: 20px;
   font-weight: 900;
 }
-.collabs-titulo{
+.collabs-titulo {
   font-size: 50px;
   font-weight: 900;
   margin-bottom: 20px;
   color: white;
 }
-.project-img{
+.project-img {
   width: 100%;
   height: 20%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.desc-p{
+.desc-p {
   width: 80%;
   height: 20%;
   border-radius: 20px;
   color: rgb(255, 255, 255);
   font-weight: 900;
 }
-.button-p{
+.button-p {
   border-radius: 20px;
   background-color: rgb(224, 10, 206);
   color: rgb(255, 255, 255);
@@ -123,15 +122,12 @@ background-color: rgb(0, 0, 0);
   cursor: pointer;
   border-radius: 20px;
   margin: 15px;
-  
 }
-.button-p:hover{
+.button-p:hover {
   transform: scale(1.1);
-
-
 }
 /* container 1 */
-.container-p1{
+.container-p1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,7 +141,7 @@ background-color: rgb(0, 0, 0);
   border-radius: 20px;
   font-weight: 900;
 }
-.desc-p1{
+.desc-p1 {
   width: 80%;
   height: 20%;
   border-radius: 20px;
@@ -153,11 +149,9 @@ background-color: rgb(0, 0, 0);
   font-weight: 900;
 }
 
-
 /* container 2*/
 
-
-.container-p2{
+.container-p2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -171,7 +165,7 @@ background-color: rgb(0, 0, 0);
   border-radius: 20px;
   font-weight: 900;
 }
-.desc-p2{
+.desc-p2 {
   width: 80%;
   height: 20%;
   border-radius: 20px;
@@ -179,64 +173,64 @@ background-color: rgb(0, 0, 0);
   font-weight: 900;
 }
 /* Footer */
-footer{
+footer {
   background-color: rgb(104, 102, 104);
   color: white;
   max-height: 50px;
   width: 100%;
   display: flex;
   bottom: 0;
-  
+
   justify-content: space-around;
   align-items: center;
   font-size: 15px;
   font-weight: 900;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   width: 30%;
   height: 100%;
 }
 .footer-container a {
-   color: white;
-    font-size: 22px;
-    margin-left: 50px;
+  color: white;
+  font-size: 22px;
+  margin-left: 50px;
 }
 .footer-container a:hover {
   transform: scale(1.3);
 }
 
 /* Form 2*/
-.input-form{
-border-radius: 25px;
-color: black;
-margin-inline: 20px;
-width: 40%;
-text-align: start;
-height: 36px;
-border-style: solid;
-border-color: black;
-color: black;
-border-width: 10px;
-margin-top: 10px;
+.input-form {
+  border-radius: 25px;
+  color: black;
+  margin-inline: 20px;
+  width: 40%;
+  text-align: start;
+  height: 36px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  border-width: 10px;
+  margin-top: 10px;
 
-font-weight: 750;
+  font-weight: 750;
 }
-.form{
+.form {
   display: list-item;
   justify-content: center;
   align-items: center;
 }
-form{
+form {
   display: list-item;
   justify-content: center;
   align-items: center;
 }
-.button-form{
+.button-form {
   border-radius: 10px;
   width: 100px;
   height: 50px;
@@ -244,35 +238,32 @@ form{
   color: rgb(255, 255, 255);
   font-weight: 900;
 }
-.business{
+.business {
   width: 100%;
   display: flex;
   justify-content: center;
-  
 }
-.input-msg{
+.input-msg {
   border-radius: 25px;
   color: black;
   width: 70%;
-   margin-top: 10px;
+  margin-top: 10px;
   height: 46px;
- border-width: 10px;
+  border-width: 10px;
   border-style: solid;
   border-color: black;
   color: black;
   font-weight: 750;
 }
-.form-main{
+.form-main {
   display: list-item;
 }
-::placeholder{
+::placeholder {
   color: black;
   font-weight: 800;
   margin-top: 50px;
- 
-
 }
-.radio-contact{
+.radio-contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -280,42 +271,77 @@ form{
   width: 20px;
   background-color: rgb(255, 255, 255);
 }
-.radio-contact label{
+.radio-contact label {
   margin: 10px;
   color: rgb(255, 255, 255);
   font-weight: 900;
   background-color: aqua;
 }
-  
-.input-form-I{
-  border-radius: 25px;
-color: black;
-margin-inline: 20px;
-width: 50%;
-text-align: start;
-height: 36px;
-border-style: solid;
-border-color: black;
-color: black;
-border-width: 10px;
-margin-top: 10px;
 
-font-weight: 750;
+.input-form-I {
+  border-radius: 25px;
+  color: black;
+  margin-inline: 20px;
+  width: 50%;
+  text-align: start;
+  height: 36px;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  border-width: 10px;
+  margin-top: 10px;
+
+  font-weight: 750;
 }
-button{
+button {
   cursor: pointer;
 }
 
 /* marcas*/
-.marcas-div{
+.marcas-div {
   background-color: azure;
   width: 100%;
   height: 100px;
   align-items: center;
   justify-content: center;
 }
-.marcas-img{
+.marcas-img {
   margin: 25px;
   width: 15%;
   height: 50%;
+}
+/*
+=================================ABOUT US==================
+*/
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 550px;
+}
+.about-us-container {
+  color: rgb(255, 255, 255);
+  width: 60%;
+  height: 90%;
+  display: list-item;
+  justify-content: center;
+  border-radius: 35px;
+  background-color: rgb(44, 11, 226);
+  border-color: black;
+  align-items: center;
+}
+.about-us-desc {
+  width: 100%;
+  font-size: larger;
+  font-weight: 600;
+}
+.about-us-img {
+  width: 30%;
+  margin: 0px;
+  height: 50%;
+}
+.about-us-container:hover {
+  transform: scale(1.1);
 }
