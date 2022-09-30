@@ -83,7 +83,7 @@ function App() {
             Welcome, the world unknown of Mrs. Ass is waiting for you, 2.222
             tokens shows the life and differents facets of this amazing
             character, he lives in the polygon blockchain, an Ethereum protocol,
-            scroll down and enjoy the art and our purpose.
+            scroll down and enjoy the art and our purpose
           </h3>
           <a
             className="button-p"
