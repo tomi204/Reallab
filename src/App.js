@@ -1,5 +1,6 @@
 import "./App.css";
 import SlideCard from "./components/Slider";
+import { useRef } from "react";
 import {
   FaFacebook,
   FaInstagram,
@@ -11,7 +12,30 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import NavL from "./components/NavL/NavL";
+import emailJs from "emailjs-com";
 function App() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailJs
+      .sendForm(
+        "service_m5v0a9p",
+        "template_dumbvpc",
+        form.current,
+        "iD8eOcKC7s-h2f39n"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -111,11 +135,11 @@ function App() {
       </div>
       <h1 className="collabs-titulo">Contact</h1>
       <div className="form">
-        <form onSubmit className="form-main">
+        <form ref={form} className="form-main" onSubmit={sendEmail}>
           <div className="business">
             <input
               type="text"
-              name="name"
+              name="user_name"
               placeholder="Your Name*"
               about="name"
               className="input-form"
@@ -123,7 +147,7 @@ function App() {
             />
             <input
               type="email"
-              name="email"
+              name="user_email"
               placeholder="Your Email*"
               about="email"
               className="input-form"
@@ -132,7 +156,7 @@ function App() {
           </div>
           <input
             type="text"
-            name="subject"
+            name="to_name"
             placeholder="Business Name*"
             about="subject"
             className="input-form"
@@ -140,7 +164,7 @@ function App() {
           />
           <input
             type="text"
-            name="subject"
+            name="from_name"
             placeholder="Interest In...(NFT Project,Your brand on the web3,Blockchain Development, etc)*"
             about="subject"
             className="input-form-I"
@@ -149,12 +173,12 @@ function App() {
 
           <input
             type="text"
-            name="subject"
+            name="message"
             placeholder="Message"
             about="subject"
             className="input-msg"
           />
-          <button type="submit" className="button-form">
+          <button className="button-form" type="submit" value="Send">
             SEND
           </button>
         </form>
