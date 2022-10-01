@@ -1,16 +1,7 @@
 import "./App.css";
 import SlideCard from "./components/Slider";
 import { useRef } from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-  FaLinkedinIn,
-  FaMailBulk,
-  FaMailchimp,
-  FaTelegram,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaTelegram, FaTwitter } from "react-icons/fa";
 import NavL from "./components/NavL/NavL";
 import emailJs from "emailjs-com";
 function App() {

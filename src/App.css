@@ -22,8 +22,6 @@
 =================================Navbar==================
 */
 .navbar {
-  background-color: transparent;
-  height: 10%;
   width: 100%;
   right: 0;
   color: white;
@@ -37,15 +35,15 @@
   text-align: center;
 }
 .navbar a {
-  margin: 19px;
+  margin: 12px;
   color: white;
 }
 header {
-  height: 16%;
+  height: 13%;
   width: 100%;
   display: flex;
   background-color: black;
-
+  font-size: 10px;
   position: fixed;
   color: white;
   z-index: 2;
