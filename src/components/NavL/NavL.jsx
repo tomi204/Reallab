@@ -5,23 +5,28 @@ import {
   FaInstagram,
   FaTelegram,
   FaLinkedinIn,
+  FaMediumM,
+  FaMedium,
 } from "react-icons/fa";
 
 const NavL = () => {
   return (
     <div className="navl">
       <li className="navl-li">
-        <a href="">
+        <a href="https://twitter.com/Reallab__">
           <FaTwitter />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/reallab__/">
           <FaInstagram />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/company/reallab-project/">
           <FaLinkedinIn />
         </a>
-        <a href="">
+        <a href="https://t.me/+oo2ra2NcP6ZhYTMx">
           <FaTelegram />
+        </a>
+        <a href="">
+          <FaMedium />
         </a>
       </li>
     </div>
