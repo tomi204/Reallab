@@ -32,11 +32,9 @@ function App() {
       <header className="App-header">
         <img src="./img/Logo.png" className="logoI" />
         <li className="navbar">
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="contact.html">What We Offer</a>
-          <a href="collabs">Projects</a>
-          <a href="contact.html">FAQ'S</a>
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#collabs-">Projects</a>
         </li>
         <NavL />
       </header>
@@ -49,7 +47,9 @@ function App() {
         </h2>
         <SlideCard />
       </main>
-      <h1 className="collabs-titulo">Collabs</h1>
+      <h1 className="collabs-titulo" id="collabs-">
+        Collabs
+      </h1>
 
       <div className="collabs">
         <div className="container-p">
@@ -111,7 +111,7 @@ function App() {
         <h1 className="about-us-titulo">About Us</h1>
         <div className="about-us-container">
           <img src="./img/Logo-Reallab.png" className="about-us-img" />
-          <h3 className="about-us-desc">
+          <h3 className="about-us-desc" id="">
             At Realllab we understand the potential that this technology
             represents and the benefits that exist with innovative ideas that
             solve problems in everyday life, we worked with big brands and web3
