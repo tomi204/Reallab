@@ -25,7 +25,7 @@ const NavL = () => {
         <a href="https://t.me/+oo2ra2NcP6ZhYTMx">
           <FaTelegram />
         </a>
-        <a href="">
+        <a href="https://medium.com/@Reallab__/list/reading-list">
           <FaMedium />
         </a>
       </li>

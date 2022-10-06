@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="./img/Logo.png" className="logoI" />
+        <img src="./img/Logo-Reallab.png" className="logoI" />
         <li className="navbar">
           <a href="#">Home</a>
           <a href="#">About Us</a>
