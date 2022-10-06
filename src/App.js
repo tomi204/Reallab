@@ -100,12 +100,10 @@ function App() {
         </div>
       </div>
       <div className="marcas-div">
-        <a href="">
-          <img src="./img/Marcas/ethereum.png" className="marcas-img" />
-        </a>
+        <img src="./img/Marcas/ethereum.png" className="marcas-img" />
+
         <img src="./img/Marcas/opensea.png" className="marcas-img" />
         <img src="./img/Marcas/polygon.png" className="marcas-img" />
-        <img src="./img/Marcas/rarible.png" className="marcas-img" />
       </div>
       <div className="about-us">
         <h1 className="about-us-titulo">About Us</h1>

@@ -23,7 +23,7 @@
 */
 .navbar {
   width: 100%;
-  right: 0;
+
   color: white;
   font-size: 20px;
   font-weight: 800;
@@ -134,7 +134,7 @@ main {
   width: 25%;
   position: relative;
   color: rgb(255, 255, 255);
-  margin-right: 15px;
+
   background-color: rgb(17, 0, 172);
   border-radius: 20px;
   font-weight: 900;
@@ -158,7 +158,7 @@ main {
   width: 25%;
   position: relative;
   color: rgb(255, 255, 255);
-  margin-right: 15px;
+
   background-color: rgb(41, 8, 161);
   border-radius: 20px;
   font-weight: 900;
@@ -342,6 +342,107 @@ button {
   margin: 0;
   padding: 0;
 }
-.about-us-container:hover {
-  transform: scale(1.1);
+
+@media screen and (max-width: 768px) {
+  .marcas-div {
+    display: flex;
+    background-color: azure;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .marcas-img {
+    margin: 5px;
+    width: 25%;
+    height: 40%;
+  }
+  .collabs {
+    width: 100%;
+    display: list-item;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+  }
+  .container-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 90%;
+    position: relative;
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(34, 19, 165);
+    border-radius: 20px;
+    font-weight: 900;
+  }
+  .container-p1 {
+    width: 90%;
+  }
+  .container-p2 {
+    width: 90%;
+  }
+  .collabs-titulo {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  .project-img {
+    width: 100%;
+    height: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .desc-p {
+    width: 80%;
+    height: 20%;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+  }
+
+  .navbar {
+    width: 50%;
+    right: 0;
+    color: white;
+    font-size: 10px;
+    font-weight: 800;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+  }
+  .navbar a {
+    margin: 4px;
+    color: white;
+  }
+  header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    font-size: 10px;
+    position: fixed;
+    color: white;
+    z-index: 1;
+  }
+  .about-us {
+    height: 100%;
+  }
+  .about-us-container {
+    width: 90%;
+    height: 90%;
+  }
+  .about-us-desc {
+    width: 80%;
+  }
+  .about-us-img {
+    width: 50%;
+  }
 }
