@@ -397,10 +397,18 @@ button {
     align-items: center;
     justify-content: center;
   }
+  .marcas-div a {
+    display: flex;
+    background-color: azure;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
   .marcas-img {
     margin: 5px;
-    width: 25%;
-    height: 40%;
+    width: 55%;
+    height: 30%;
   }
   .collabs {
     width: 100%;

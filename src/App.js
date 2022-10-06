@@ -93,17 +93,22 @@ function App() {
           </h3>
           <a
             className="button-p"
-            href="https://opensea.io/collection/tortuga-v2-1l"
+            href="https://opensea.io/collection/tortuga-v2-1"
           >
             OpenSea
           </a>
         </div>
       </div>
       <div className="marcas-div">
-        <img src="./img/Marcas/ethereum.png" className="marcas-img" />
-
-        <img src="./img/Marcas/opensea.png" className="marcas-img" />
-        <img src="./img/Marcas/polygon.png" className="marcas-img" />
+        <a href="https://ethereum.org/en/" target={"_blank"}>
+          <img src="./img/Marcas/ethereum.png" className="marcas-img" />
+        </a>
+        <a href="https://opensea.io/" target={"_blank"}>
+          <img src="./img/Marcas/opensea.png" className="marcas-img" />
+        </a>
+        <a href="https://polygon.technology/" target={"_blank"}>
+          <img src="./img/Marcas/polygon.png" className="marcas-img" />
+        </a>
       </div>
       <div className="about-us" id="about-us-">
         <h1 className="about-us-titulo">About Us</h1>
@@ -172,21 +177,25 @@ function App() {
           </button>
         </form>
       </div>
+      <br />
 
       <footer>
         <h3>RealLab © 2022</h3>
         <div className="footer-container">
-          <a href="https://twitter.com/Reallab__">
+          <a href="https://twitter.com/R3allab" target={"_blank"}>
             <FaTwitter />
           </a>
-          <a href="https://www.instagram.com/reallab__/">
+          <a href="https://www.instagram.com/r3allab.eth/" target={"_blank"}>
             <FaInstagram />
           </a>
-          <a href="https://www.linkedin.com/company/reallab-project/">
+          <a
+            href="https://www.linkedin.com/company/reallab-project/"
+            target={"_blank"}
+          >
             <FaLinkedin />
           </a>
 
-          <a href="https://t.me/+oo2ra2NcP6ZhYTMx">
+          <a href="https://t.me/+oo2ra2NcP6ZhYTMx" target={"_blank"}>
             <FaTelegram />
           </a>
         </div>
