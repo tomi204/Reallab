@@ -7,8 +7,6 @@
   height: 100px;
   color: azure;
   display: block;
-  margin-top: 8px;
-  margin-left: 20px;
 }
 .App {
   text-align: center;
@@ -344,6 +342,19 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .logoI {
+    width: 90px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .h2-img {
+    font-size: medium;
+    width: 80%;
+    margin-left: 15px;
+  }
   footer {
     background-color: rgb(104, 102, 104);
     color: white;
@@ -357,7 +368,10 @@ button {
     font-size: 15px;
     font-weight: 900;
   }
-
+  .img-principal {
+    margin-top: 50px;
+    width: 70%;
+  }
   .footer-container {
     display: flex;
     justify-content: center;

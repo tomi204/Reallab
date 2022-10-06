@@ -33,7 +33,7 @@ function App() {
         <img src="./img/Logo-Reallab.png" className="logoI" />
         <li className="navbar">
           <a href="#">Home</a>
-          <a href="#">About Us</a>
+          <a href="#about-us-">About Us</a>
           <a href="#collabs-">Projects</a>
         </li>
         <NavL />
@@ -105,7 +105,7 @@ function App() {
         <img src="./img/Marcas/opensea.png" className="marcas-img" />
         <img src="./img/Marcas/polygon.png" className="marcas-img" />
       </div>
-      <div className="about-us">
+      <div className="about-us" id="about-us-">
         <h1 className="about-us-titulo">About Us</h1>
         <div className="about-us-container">
           <img src="./img/Logo-Reallab.png" className="about-us-img" />
