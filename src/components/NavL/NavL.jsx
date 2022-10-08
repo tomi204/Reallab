@@ -28,10 +28,7 @@ const NavL = () => {
         <a href="https://t.me/+oo2ra2NcP6ZhYTMx" target={"_blank"}>
           <FaTelegram />
         </a>
-        <a
-          href="https://medium.com/@Reallab__/list/reading-list"
-          target={"_blank"}
-        >
+        <a href="https://medium.com/@Reallab__" target={"_blank"}>
           <FaMedium />
         </a>
       </li>

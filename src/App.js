@@ -54,7 +54,7 @@ function App() {
       <div className="collabs">
         <div className="container-p">
           <img src="./img/MCC.png" className="project-img" />
-          <h1 className="titulo-p">Mini Car Club</h1>
+          <h1 className="titulo-p">Mini Cars Club</h1>
           <h3 className="desc-p">
             MCC’s approach is to integrate blockchain technology within the
             world of customized cars
